@@ -10,3 +10,7 @@ fails:
   file.directory:
     - name: /opt/échouer
 
+also_fails:
+  file.recurse:
+    - name: /opt/répertoire-de-test
+    - source: salt://files/test-folder
