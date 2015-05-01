@@ -1,0 +1,3 @@
+/opt/échouer:
+  file:
+    - directory
